@@ -9,6 +9,11 @@ email:{
     type:String,
     required:true,
 },
+password:{
+    type:String,
+    required:true,
+    unique:true
+},
 aadharNo:{
     type:Number,
     required:true
