@@ -1,4 +1,4 @@
-import User from "../models/user";
+import User from "../models/user.js";
 
 class UserRepository {
 
@@ -43,4 +43,4 @@ class UserRepository {
 
 }
 
-module.exports = UserRepository;
+export default UserRepository; 
