@@ -1,8 +1,6 @@
 import mongoose from "mongoose";
 
-
 export const connect = async () => {
-    await mongoose.connect("mongodb://127.0.0.1/drone_booking_database")
-
+    await mongoose.connect("mongodb://127.0.0.1/drone_booking_database");
 }
 
