@@ -14,8 +14,7 @@ class UserRepository {
 
     async destroy(id) {
         try {
-            const user = User.findByIdAndRemove(id);
-            return user;
+            const user = User.findByIdAndRemove(id)
         } catch (error) {
             console.log("error while deleting user in user repo", error);
             throw error;
