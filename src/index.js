@@ -11,12 +11,12 @@ app.listen(3000, async () => {
 
    const userService=new UserService();
    userService.create({
-    name:"jmkdsfjk",
-    email:"anukush@gmail.com",
-    password:"343",
-    aadharNo:23232323,
-    phoneNo:343434343434
-   })
-  
-  
+    name:"adfsgh",
+    email:"anusfdhgkush@gmail.com",
+    password:"3e4r43",
+    aadharNo:2323345232456783,
+    phoneNo:3433456434343434
+   });
+    userService.destroy('642aa9c7e8e42a1a8bad4f3d');
+
 });
