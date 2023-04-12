@@ -41,6 +41,10 @@ class UserRepository {
         }
     }
 
+   async findBy(data){
+    const user =User.findOne(data);
+    return user;
+   }
 }
 
 export default UserRepository; 
